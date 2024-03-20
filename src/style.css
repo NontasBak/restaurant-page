@@ -28,8 +28,9 @@ nav {
 nav > button {
     padding: 1rem 2rem;
     border-radius: 0.5rem;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 1.5rem;
+    background-color: rgb(199, 216, 255);
 }
 
 #content.home {
@@ -53,7 +54,7 @@ nav > button {
     width: 60%;
 
     font-family: system-ui;
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
     font-weight: 600;
     font-style: italic;
@@ -112,4 +113,36 @@ nav > button {
 .text-container > h3 {
     font-size: 2rem;
     align-self: end;
+}
+
+
+
+
+#content.about {
+    display: flex;
+    gap: 2rem;
+    width: min(90%, 900px);
+    margin: 0 auto;
+}
+
+#content.about > img {
+    width: 60%;
+}
+
+.about-us-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    width: 40%;
+}
+
+.about-us-container-text > h1 {
+    font-size: 3rem;
+}
+
+.about-us-container-text > p {
+    font-size: 1.1rem;
+    white-space: pre-line;
+    line-height: 1.6rem;
 }

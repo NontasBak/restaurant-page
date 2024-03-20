@@ -49,8 +49,6 @@ function displayDish(dish) {
 }
 
 function displayMenuPage() {
-    contentDiv.removeAttribute("class");
-    contentDiv.classList.add("menu");
 
     const menuTitleH1 = document.createElement("h1");
     menuTitleH1.textContent = "Menu~"
