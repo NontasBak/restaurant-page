@@ -32,7 +32,7 @@ nav > button {
     font-size: 1.5rem;
 }
 
-#content {
+#content.home {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,4 +59,57 @@ nav > button {
     font-style: italic;
     letter-spacing: 0.5rem;
 
+}
+
+
+#content.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+#content.menu > h1 {
+    color: rgb(149, 220, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+
+
+.dish-container {
+    display: flex;
+    gap: 15px;
+    width: min(90%, 600px);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    background-color: rgb(54, 69, 88);
+}
+
+.dish-container > img {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+
+.text-container {
+    color: white;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+
+.text-container > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-container > h3 {
+    font-size: 2rem;
+    align-self: end;
 }

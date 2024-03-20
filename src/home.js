@@ -2,6 +2,8 @@ import RestaurantHome from './home-image.jpg';
 
 function displayHomePage() {
     const contentDiv = document.querySelector("#content");
+    contentDiv.removeAttribute("class");
+    contentDiv.classList.add("home");
     const containerDiv = document.createElement("div");
 
     const homeImage = new Image();
