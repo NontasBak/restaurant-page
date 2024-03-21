@@ -5,9 +5,9 @@ import Image3 from "./souvlaki.jpg";
 const dishImages = [Image1, Image2, Image3];
 const dishNames = ["Gyros", "Steak", "Souvlakia"];
 const dishDescriptions = [
-    "Gyros with french potatoes, tomatoes, onions and ketchup/mustard",
-    "Steak with french potatoes on the side",
-    "5 Souvlakia with a generous portion of french potatoes on the side"
+    "Gyros with french fries, tomatoes, onions and ketchup/mustard",
+    "Steak with french fries on the side",
+    "5 Souvlakia with a generous portion of french fries on the side"
 ];
 const dishPrices = [4, 8, 7];
 let menuDishes = [];
